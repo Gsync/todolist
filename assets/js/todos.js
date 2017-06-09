@@ -18,7 +18,7 @@ $(document).ready(function() {
     if (event.which === 13) {
       var todoText = $(this).val();
       $(this).val("");
-      $("ul").prepend("<li><span>X </span>" + todoText + "</li>");
+      $("ul").prepend("<li><span><i class='fa fa-trash'></i> </span>" + todoText + "</li>");
     }
   });
 });
