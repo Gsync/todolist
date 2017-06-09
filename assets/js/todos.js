@@ -5,6 +5,7 @@ $(document).ready(function() {
   $("ul").on('click', 'li', function() {
     $(this).toggleClass("completed");
   });
+
 //Click on X to delete todo
   $("ul").on('click', 'span', function(event) {
       $(this).parent().fadeOut(500, function() {
@@ -21,4 +22,10 @@ $(document).ready(function() {
       $("ul").prepend("<li><span><i class='fa fa-trash'></i> </span>" + todoText + "</li>");
     }
   });
+
+//hide/fade plus icon
+  $(".fa-plus").on('click', function(){
+    $("input[type='text']").fadeToggle();
+  });
+
 });

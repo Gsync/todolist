@@ -1,3 +1,11 @@
+body {
+  font-family: Roboto;
+  background: #c21500;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 h1 {
   background: #2980b9;
   color: white;
@@ -36,18 +44,6 @@ input:focus {
   border: 3px solid #2980b9;
 }
 
-li:nth-child(2n) {
-  background: #f7f7f7;
-}
-
-body {
-  font-family: Roboto;
-  background: #c21500;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
 span {
   background: #e74c3c;
   height: 40px;
@@ -58,6 +54,10 @@ span {
   display: inline-block;
   transition: 0.2s linear;
   opacity: 0;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
 }
 
 li:hover span {
