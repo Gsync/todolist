@@ -4,4 +4,4 @@
 
 ### Snapshot
 
-![App Snapshot](./assets/snapshots/todo.jpg?raw=true "App Snapshot Image")
+![App Snapshot](./assets/snapshots/todo.jpeg?raw=true "App Snapshot Image")
